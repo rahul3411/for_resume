@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/quizz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Quizz_page</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            
+            <div class="left_head">
+                <div class="icon-bar_left" onclick="toggleMenu()">
+                    <span class="colorchange"></span>
+                    <span class="colorchange"></span>
+                    <span class="colorchange"></span>
+                </div>
+                <div class="anchor-right">
+                    <a class="one" href="index.html">GuzzNeed</a>
+                    <a class="two" href="quizz.html">Quizzes</a>
+                    <a class="three" href="movies.html">Tv&Movie</a>
+                    <a class="four" href="shoping.html">Shoping</a>
+                    <a class="five" href="videos.html">Videos</a>
+                    <a class="six" href="news.html">News</a>
+                    <a class="seven" href="tasty.html">Tasty</a>
+                    <div  id="box" class="box">
+                    <input type="text" placeholder="SEARCH" name="uname" required>
+                    </div>
+                </div>
+
+            
+                <div id="mobile_menu" class="mobile_menu">
+                    <a class="two" href="quizz.html">Quizzes</a>
+                    <a class="three" href="movies.html">Tv&Movie</a>
+                    <a class="four" href="shoping.html">Shoping</a>
+                    <a class="five" href="videos.html">Videos</a>
+                    <a class="six" href="news.html">News</a>
+                    <a class="seven" href="tasty.html">Tasty</a>
+                </div>      
+            </div>
+
+            <div class="right_head">
+                    <a href="">Sign In</a>
+                    <div id="arow" class="arow" onclick="trangle()">
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                    <div class="eye" onclick="key()">
+                        <i id="fearch" class="fa fa-search"></i>
+                    </div>
+                    <img class="Lol" src="imsges/BuzzFeed_Badges.jpg" alt="">
+                    <img class="Lol" src="imsges/main126.png" alt="">
+                    <img class="Lol" src="imsges/Png.png" alt="">
+                    <img class="Lol" src="imsges/images (1).png" alt="">
+                    <img class="Lol" src="imsges/85265fcee46240d8914d3ee8ed37672c.jpg" alt=""> 
+            </div>
+          
+        </div>        
+        <div class="header-spacer"></div>
+        <div class="movies_page_head">
+            <img src="imsges/85265fcee46240d8914d3ee8ed37672c.jpg" alt="">
+            <a href="">Back To School 2020</a>
+            <a href="">CoronaVirus Coverage</a>
+            <a href="">2020 RNC</a>
+            <a href="">Top Quizzes</a>
+            <a href="">What To Watch</a>
+            <img src="imsges/85265fcee46240d8914d3ee8ed37672c.jpg" alt="">
+        </div>
+        <!-- Header end -->
+
+       
+   
+        <!-- movies page end  -->
+        <form action="/action_page.php" >
+            <div class="signin_form_container" id="signin_form_container">
+                <h1>Sign In</h1>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+            
+                <label class="text_signin" for="email"><b>Email</b></label>
+                <input  type="text" placeholder="Enter Email" name="email" required>
+            
+                <label class="text_signin" for="psw"><b>Password</b></label>
+                <input  type="password" placeholder="Enter Password" name="psw" required>
+            
+                <label class="text_signin" for="psw-repeat"><b>Repeat Password</b></label>
+                <input  type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                
+                <label class="text_signin">
+                  <input  type="checkbox" checked="checked" name="remember" style="margin-bottom:20px"> Remember me
+                </label>
+                
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+            
+                <div class="clearfix">
+                  <button type="button" class="cancelbtn">Cancel</button>
+                  <button type="submit" class="signinbtn">Sign In</button>
+                </div>
+           </div>
+        </form>
+            <div class="main_container">
+               
+                <div class="movies_text">
+                    <h1>GuzzNeed Quizzes</h1>
+                    <p>We've got all the quizzes you love to binge! Come on in and hunker down for the long haul</p>
+
+                </div>
+                <div class="movies_menu">
+                   <a href="">Latest</a>
+                   <a href="">K-Pop</a>
+                   <a href="">Disney</a>
+                   <a href="">Food</a>
+                   <a href="">Love</a>
+                   <a href="">Trivai</a>
+                  </div>
+                    <div class="container">
+                        <div class="mine_container">
+                            <div class="the_utter">
+                                <div class="utter_img">
+                                    <div class="arrow_sidebar" onclick="bar()">
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="imsges/quiz-2137664__340.webp" alt="">
+                                </div>
+                                <div class="utter_text">
+                                    <h2 class="text_one">
+                                        Welcome to the GuzzNeed quiz. The quiz is a general knowledge quiz centred on India
+                                    </h2>
+                                    <p class="paragraph_text">
+                                        A quiz is a form of game or mind sport, attempt to answer questions correctly. 
+                                    </p> 
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="products_img">
+                                    <img src="imsges/top-five-tests.jpg" alt="">
+                                </div>
+                                <div class="products_text">
+                                    <a class="link" href="">
+                                        All questions must have an India-related theme or India-related connection.
+                                    </a>
+                                    <div class="or">
+                                        <p>
+                                            Any registered can answer a quiz question,
+                                        </p>
+                                    </div> 
+                                    <div class="circle_img">
+                                        <img src="imsges/60559365-858682714524305-6596781388162519355-n-3302.jpg" alt="">
+                                        <span>Shivani Agarwal</span>
+                                    </div>  
+                                </div>
+                            
+                            </div>
+                            <div class="products">
+                                <div class="products_img">
+                                    <img src="imsges/images (19).jpg" alt="">
+                                </div>
+                                <div class="products_text">
+                                    <a class="link" href="">
+                                        Questioners hint every 2 days whether or not the question has been attempted.
+                                    </a>
+                                    <div class="or">
+                                        <p>
+                                            should not take the form of questions/riddles.
+                                        </p>
+                                    </div> 
+                                    <div class="circle_img">
+                                        <img src="imsges/60559365-858682714524305-6596781388162519355-n-3302.jpg" alt="">
+                                        <span>Shivani Agarwal</span>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="products_img">
+                                    <img src="imsges/images (21).jpg" alt="">
+                                </div>
+                                <div class="products_text">
+                                    <a class="link" href="">
+                                        Remember that you may have an international audience. Keep quiz questions 
+                                    </a>
+                                    <div class="or">
+                                        <p>
+                                            No swan is not the answer. 
+                                        </p>
+                                    </div> 
+                                    <div class="circle_img">
+                                        <img src="imsges/60559365-858682714524305-6596781388162519355-n-3302.jpg" alt="">
+                                        <span>Shivani Agarwal</span>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="products_img">
+                                    <img src="imsges/images (25).jpg" alt="">
+                                </div>
+                                <div class="products_text">
+                                    <a class="link" href="">
+                                        I had told that Island is located in latin america or south america. Please follow hint 1.
+                                    </a>
+                                    <div class="or">
+                                        <p>
+                                            The Golden haired boy spoke many languages
+                                        </p>
+                                    </div> 
+                                    <div class="circle_img">
+                                        <img src="imsges/60559365-858682714524305-6596781388162519355-n-3302.jpg" alt="">
+                                        <span>Shivani Agarwal</span>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="products_img">
+                                    <img src="imsges/images (24).jpg" alt="">
+                                </div>
+                                <div class="products_text">
+                                    <a class="link" href="">
+                                        Ooooh, it is possible... just the hindi connect is still bugging me :( But honestly 
+                                    </a>
+                                    <div class="or">
+                                        <p>
+                                            I learned the first that he spoke.rueben
+                                        </p>
+                                    </div> 
+                                    <div class="circle_img">
+                                        <img src="imsges/60559365-858682714524305-6596781388162519355-n-3302.jpg" alt="">
+                                        <span>Shivani Agarwal</span>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="the_futter">
+                                <div class="the_utter">
+                                    <div class="utter_img">
+                                        <img src="imsges/images (25).jpg" alt="">
+                                    </div>
+                                    <div class="utter_text">
+                                        <h2 class="text_one">
+                                            The young city where the tragedy struck is colloquially referred 
+                                        </h2>
+                                        <p class="paragraph_text">
+                                            a part of one of the major cities of India that actually has a very ancient history
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trending_now">
+                                    <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/images (18).jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/images (22).jpg" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">Name an Indian scientist after whom a genus is named </a>
+                                        </div>
+    
+                                    </div>
+                                    <div class="nine">
+                                        <div class="nine-mini">
+                                            <div class="img_left">
+                                                <img src="imsges/31bh9ovhgbl-5e9f190f1b7b4_5ac1a3ff3396bc0d17ba2482a870a0e1.jpg" alt="">
+                                            </div>
+                                            <div class="img_right">
+                                                <img src="imsges/always-be-happy.png" alt="">
+                                            </div>
+                                        </div>
+                                            <div class="trending_text">
+                                                <a href="">I have 3 answers to this question.. Bhargavaea – Pushpa Mittra Bhargava, an Indian biologist. </a>
+                                            </div>
+                                    </div>
+                                    <div class="nine">
+                                        <div class="nine-mini">
+                                            <div class="img_left">
+                                                <img src="imsges/917ec93551fb2be1763d0f39062c35cc2ce545680234f074a6fe820e620c.jpg" alt="">
+                                            </div>
+                                            <div class="img_right">
+                                                <img src="imsges/BookOfQuizzes_600-500x750.jpg" alt="">
+                                            </div>
+                                        </div>
+                                            <div class="trending_text">
+                                                <a href="">You are correct. You go ahead and ask the next question. I did have another person in my mind. </a>
+                                            </div>
+                                    </div>
+                                    <div class="nine">
+                                        <div class="nine-mini">
+                                            <div class="img_left">
+                                                <img src="imsges/download (2).jpg" alt="">
+                                            </div>
+                                            <div class="img_right">
+                                                <img src="imsges/images (23).jpg" alt="">
+                                            </div>
+                                        </div>
+                                            <div class="trending_text">
+                                                <a href="">I HOPE THE QUIZ ISN'T DEAD. And since the last question was asked more than a year ago</a>
+                                            </div>
+                                    </div>
+                                    <div class="nine">
+                                        <div class="nine-mini">
+                                            <div class="img_left">
+                                                <img src="imsges/images (20).jpg" alt="">
+                                            </div>
+                                            <div class="img_right">
+                                                <img src="imsges/images (26).jpg" alt="">
+                                            </div>
+                                        </div>
+                                            <div class="trending_text">
+                                                <a href="">A very good news for everybody.. I have been selected for Kaun Banega Crorepati. My episode</a>
+                                            </div>
+                                    </div>
+                                    <div class="nine">
+                                        <div class="nine-mini">
+                                            <div class="img_left">
+                                                <img src="imsges/e400fe15b45075bc561190c6c1f358638527b637e30df7a6b41f5a0b989b.jpg" alt="">
+                                            </div>
+                                            <div class="img_right">
+                                                <img src="imsges/images (17).jpg" alt="">
+                                            </div>
+                                        </div>
+                                            <div class="trending_text">
+                                                <a href="">How can we go in past to watch it? You are giving the year of telecast as</a>
+                                            </div>
+                                    </div>
+                                    <div class="nine"> <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/4c8b8cbe1b997992027ff2dbe175634521f5832ebb60040a3b869f3e1c4b.jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/scarlett-johansson-top-20-sexiest-hottest-women-2020-202003-1585584120-650x510.jpg" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">I will take the liberty to ask the next question. Connect Chhota Udaipur, Jamshedpur and Anil Khera?</a>
+                                        </div>
+                                    </div>
+                                    <div class="nine">
+                                        <div class="nine-mini">
+                                            <div class="img_left">
+                                                <img src="imsges/images (13).jpg" alt="">
+                                            </div>
+                                            <div class="img_right">
+                                                <img src="imsges/54.jpg" alt="">
+                                            </div>
+                                        </div>
+                                            <div class="trending_text">
+                                                <a href="">In which name we knows Dhanpatrai, a well-known novelist and story writer in Hindi and Urdu? </a>
+                                            </div>
+                                    </div>
+                                    <div class="nine">
+                                        <div class="nine-mini">
+                                            <div class="img_left">
+                                                <img src="imsges/childheight.jpg.824x0_q71_crop-scale.jpg" alt="">
+                                            </div>
+                                            <div class="img_right">
+                                                <img src="imsges/gh-052820-best-anti-aging-products-1590700658.png" alt="">
+                                            </div>
+                                        </div>
+                                            <div class="trending_text">
+                                                <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                            </div>
+                                    </div>
+                        </div>
+                        <div class="right_menu_toggle" id="right_menu_toggle">
+    
+                            <div class="trend_now">
+                                <div class="nine">
+                                <div class="nine-mini">
+                                    <div class="img_left">
+                                        <img src="imsges/images (1).jpg" alt="">
+                                    </div>
+                                    <div class="img_right">
+                                        <img src="imsges/images (2).jpg" alt="">
+                                    </div>
+                                </div>
+                                    <div class="trending_text">
+                                        <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                    </div>
+                        
+                                </div>
+                                <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/images (3).jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/images (4).jpg" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                        </div>
+                                </div>
+                                <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/images (5).jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/internet-770x470.webp" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                        </div>
+                                </div>
+                                <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/vsco5d069ef5e0929.jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/6c33.jpg" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                        </div>
+                                </div>
+                                <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/childheight.jpg.824x0_q71_crop-scale.jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/gh-052820-best-anti-aging-products-1590700658.png" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                        </div>
+                                </div>
+                                <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/childheight.jpg.824x0_q71_crop-scale.jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/gh-052820-best-anti-aging-products-1590700658.png" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                        </div>
+                                </div>
+                                <div class="nine"> <div class="nine-mini">
+                                    <div class="img_left">
+                                        <img src="imsges/childheight.jpg.824x0_q71_crop-scale.jpg" alt="">
+                                    </div>
+                                    <div class="img_right">
+                                        <img src="imsges/gh-052820-best-anti-aging-products-1590700658.png" alt="">
+                                    </div>
+                                </div>
+                                    <div class="trending_text">
+                                        <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                    </div>
+                                </div>
+                                <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/childheight.jpg.824x0_q71_crop-scale.jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/gh-052820-best-anti-aging-products-1590700658.png" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                        </div>
+                                </div>
+                                <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/childheight.jpg.824x0_q71_crop-scale.jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/gh-052820-best-anti-aging-products-1590700658.png" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                        </div>
+                                </div>
+                        </div>
+                        </div>
+                    </div> 
+            </div>
+
+    </div>
+   
+
+  
+    <script>
+        function toggleMenu() {
+          var x = document.getElementById("mobile_menu");
+          if (x.className === "mobile_menu") {
+            x.className +=" responsive";
+          } else {
+            x.className = "mobile_menu";
+          }
+        }
+        </script>
+    
+         <script>
+            function key() {
+              var x = document.getElementById("box");
+              if (x.className === "box") {
+                x.className +=" add";
+              } else {
+                x.className = "box";
+              }
+            }
+            </script>
+    
+             <script>
+                function trangle() {
+                  var x = document.getElementById("signin_form_container");
+                  if (x.className === "signin_form_container") {
+                    x.className +=" signform_add ";
+                  } else {
+                    x.className = "signin_form_container";
+                  }
+                }
+                </script>
+    
+                <script>
+                    function bar() {
+                    var x = document.getElementById("right_menu_toggle");
+                    if (x.className === "right_menu_toggle") {
+                        x.className +=" right_toggle_add ";
+                    } else {
+                        x.className = "right_menu_toggle";
+                    }
+                    }
+                    </script>  
+
+    
+</body>
+</html>

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/shoping.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>shoping_page</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            
+            <div class="left_head">
+                <div class="icon-bar_left" onclick="toggleMenu()">
+                    <span class="colorchange"></span>
+                    <span class="colorchange"></span>
+                    <span class="colorchange"></span>
+                </div>
+                <div class="anchor-right">
+                    <a class="one" href="index.html">GuzzNeed</a>
+                    <a class="two" href="quizz.html">Quizzes</a>
+                    <a class="three" href="movies.html">Tv&Movie</a>
+                    <a class="four" href="shoping.html">Shoping</a>
+                    <a class="five" href="videos.html">Videos</a>
+                    <a class="six" href="news.html">News</a>
+                    <a class="seven" href="tasty.html">Tasty</a>
+                    <div  id="box" class="box">
+                    <input type="text" placeholder="SEARCH" name="uname" required>
+                    </div>
+                </div>
+
+            
+                <div id="mobile_menu" class="mobile_menu">
+                    <a class="two" href="quizz.html">Quizzes</a>
+                    <a class="three" href="movies.html">Tv&Movie</a>
+                    <a class="four" href="shoping.html">Shoping</a>
+                    <a class="five" href="videos.html">Videos</a>
+                    <a class="six" href="news.html">News</a>
+                    <a class="seven" href="tasty.html">Tasty</a>
+                </div>   
+            </div>
+
+            <div class="right_head">
+                    <a href="">Sign In</a>
+                    <div id="arow" class="arow" onclick="trangle()">
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                    <div class="eye" onclick="key()">
+                        <i id="fearch" class="fa fa-search"></i>
+                    </div>
+                    <img class="Lol" src="imsges/BuzzFeed_Badges.jpg" alt="">
+                    <img class="Lol" src="imsges/main126.png" alt="">
+                    <img class="Lol" src="imsges/Png.png" alt="">
+                    <img class="Lol" src="imsges/images (1).png" alt="">
+                    <img class="Lol" src="imsges/85265fcee46240d8914d3ee8ed37672c.jpg" alt=""> 
+            </div>
+          
+        </div>        
+        <div class="header-spacer"></div>
+        <div class="movies_page_head">
+            <img src="imsges/85265fcee46240d8914d3ee8ed37672c.jpg" alt="">
+            <a href="">Back To School 2020</a>
+            <a href="">CoronaVirus Coverage</a>
+            <a href="">2020 RNC</a>
+            <a href="">Top Quizzes</a>
+            <a href="">What To Watch</a>
+            <img src="imsges/85265fcee46240d8914d3ee8ed37672c.jpg" alt="">
+        </div>
+        <!-- Header end -->
+
+       
+   
+        <!-- movies page end  -->
+        <form action="/action_page.php" >
+            <div class="signin_form_container" id="signin_form_container">
+                <h1>Sign In</h1>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+            
+                <label class="text_signin" for="email"><b>Email</b></label>
+                <input  type="text" placeholder="Enter Email" name="email" required>
+            
+                <label class="text_signin" for="psw"><b>Password</b></label>
+                <input  type="password" placeholder="Enter Password" name="psw" required>
+            
+                <label class="text_signin" for="psw-repeat"><b>Repeat Password</b></label>
+                <input  type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                
+                <label class="text_signin">
+                  <input  type="checkbox" checked="checked" name="remember" style="margin-bottom:20px"> Remember me
+                </label>
+                
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+            
+                <div class="clearfix">
+                  <button type="button" class="cancelbtn">Cancel</button>
+                  <button type="submit" class="signinbtn">Sign In</button>
+                </div>
+           </div>
+        </form>
+            <div class="main_container">
+               
+                <div class="movies_text">
+                    <h1>Shopping</h1>
+                </div>
+                    <div class="container">
+                        <div class="mine_container">
+                            <div class="the_utter">
+                                <div class="utter_img">
+                                    <div class="arrow_sidebar" onclick="bar()">
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="imsges/shopping-bags.jpg" alt="">
+                                </div>
+                                <div class="utter_text">
+                                    <h2 class="text_one">
+                                        GuzzNeed shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller
+                                    </h2>
+                                    <p class="paragraph_text">
+                                        Consumers find a product of interest by visiting the website of the retailer 
+                                    </p> 
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="products_img">
+                                    <img src="imsges/365-3659244_1920x1080-free-makeup-wallpapers-free-beauty-products-wallpaper.jpg" alt="">
+                                </div>
+                                <div class="products_text">
+                                    <a class="link" href="">
+                                        Online stores usually enable shoppers to use "search" features 
+                                    </a>
+                                    <div class="or">
+                                        <p>
+                                            customer; for digital products,
+                                        </p>
+                                    </div> 
+                                    <div class="circle_img">
+                                        <img src="imsges/hollywood-actress.jpg" alt="">
+                                        <span>Shivani Agarwal</span>
+                                    </div>  
+                                </div>
+                            
+                            </div>
+                            <div class="products">
+                                <div class="products_img">
+                                    <img src="imsges/ezgif-3-0bb0b62128c8.jpg" alt="">
+                                </div>
+                                <div class="products_text">
+                                    <a class="link" href="">
+                                        The largest of these online retailing corporations are Alibaba, and eBay
+                                    </a>
+                                    <div class="or">
+                                        <p>
+                                            Alternative names for the activity are "e-tailing"
+                                        </p>
+                                    </div> 
+                                    <div class="circle_img">
+                                        <img src="imsges/hollywood-actress.jpg" alt="">
+                                        <span>Shivani Agarwal</span>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="products_img">
+                                    <img src="imsges/images (14).jpg" alt="">
+                                </div>
+                                <div class="products_text">
+                                    <a class="link" href="">
+                                        The emergence of online shopping as we know today developed with this platform 
+                                    </a>
+                                    <div class="or">
+                                        <p>
+                                            As the revenues from online sales 
+                                        </p>
+                                    </div> 
+                                    <div class="circle_img">
+                                        <img src="imsges/hollywood-actress.jpg" alt="">
+                                        <span>Shivani Agarwal</span>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="products_img">
+                                    <img src="imsges/unnamed (2).jpg" alt="">
+                                </div>
+                                <div class="products_text">
+                                    <a class="link" href="">
+                                        English entrepreneur Michael Aldrich was a pioneer of online shopping in TV
+                                    </a>
+                                    <div class="or">
+                                        <p>
+                                            participative communication medium — the first 
+                                        </p>
+                                    </div> 
+                                    <div class="circle_img">
+                                        <img src="imsges/hollywood-actress.jpg" alt="">
+                                        <span>Shivani Agarwal</span>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="products_img">
+                                    <img src="imsges/pexels-photo-291762.jpeg" alt="">
+                                </div>
+                                <div class="products_text">
+                                    <a class="link" href="">
+                                        The first World Wide Web server and browser, created by Tim Berners-Lee in 1989
+                                    </a>
+                                    <div class="or">
+                                        <p>
+                                            subsequent technological innovations
+                                        </p>
+                                    </div> 
+                                    <div class="circle_img">
+                                        <img src="imsges/hollywood-actress.jpg" alt="">
+                                        <span>Shivani Agarwal</span>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="the_futter">
+                                <div class="the_utter">
+                                    <div class="utter_img">
+                                        <img src="imsges/internet-1593378_960_720.webp" alt="">
+                                    </div>
+                                    <div class="utter_text">
+                                        <h2 class="text_one">
+                                            Transaction Internet Shopping Network Immediately after, Amazon.com launched its online shopping site
+                                        </h2>
+                                        <p class="paragraph_text">
+                                            The marketing around the digital environment, customer's and firm
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trending_now">
+                                    <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/20171115143503938927.jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/images (16).jpg" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href=""> , when they make a buying decision that might concern the interactions with search engine, recommendations, online reviews </a>
+                                        </div>
+    
+                                    </div>
+                                    <div class="nine">
+                                        <div class="nine-mini">
+                                            <div class="img_left">
+                                                <img src="imsges/product-package-boxes-shopping-bag-cart-with-laptop-online-shopping-delivery-concept_38716-138.jpg" alt="">
+                                            </div>
+                                            <div class="img_right">
+                                                <img src="imsges/519-5193227_online-shop-clipart-hd-png-download.png" alt="">
+                                            </div>
+                                        </div>
+                                            <div class="trending_text">
+                                                <a href="">Subsequently, risk and trust would also are two important factors affecting people's' behavior in digital environments. </a>
+                                            </div>
+                                    </div>
+                                    <div class="nine">
+                                        <div class="nine-mini">
+                                            <div class="img_left">
+                                                <img src="imsges/2483954.jpg" alt="">
+                                            </div>
+                                            <div class="img_right">
+                                                <img src="imsges/tea-2975184_960_720.png" alt="">
+                                            </div>
+                                        </div>
+                                            <div class="trending_text">
+                                                <a href=""> Customer consider to switch between e-channels, because they are mainly influence by the </a>
+                                            </div>
+                                    </div>
+                                    <div class="nine">
+                                        <div class="nine-mini">
+                                            <div class="img_left">
+                                                <img src="imsges/download (1).jpg" alt="">
+                                            </div>
+                                            <div class="img_right">
+                                                <img src="imsges/ts-projector-buying-guide.jpg" alt="">
+                                            </div>
+                                        </div>
+                                            <div class="trending_text">
+                                                <a href="">Finally, customer may afraid that they cannot fully understand the language used in e-sales. Based on those factors </a>
+                                            </div>
+                                    </div>
+                                    <div class="nine">
+                                        <div class="nine-mini">
+                                            <div class="img_left">
+                                                <img src="imsges/ceb71ce4f753cc84246d75e429d73351.jpg" alt="">
+                                            </div>
+                                            <div class="img_right">
+                                                <img src="imsges/presentation-projector-for-meeting-with-light-beam-stock-photograph_csp0478309.jpg" alt="">
+                                            </div>
+                                        </div>
+                                            <div class="trending_text">
+                                                <a href="">Consumers find a product of interest by visiting the website of the retailer directly or by searching among alternative </a>
+                                            </div>
+                                    </div>
+                                    <div class="nine">
+                                        <div class="nine-mini">
+                                            <div class="img_left">
+                                                <img src="imsges/childheight.jpg.824x0_q71_crop-scale.jpg" alt="">
+                                            </div>
+                                            <div class="img_right">
+                                                <img src="imsges/gh-052820-best-anti-aging-products-1590700658.png" alt="">
+                                            </div>
+                                        </div>
+                                            <div class="trending_text">
+                                                <a href="">Some online shops will not accept Some require both the purchaser's billing and shipping address</a>
+                                            </div>
+                                    </div>
+                                    <div class="nine"> <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/15a416e358f524f368ad95e97f320ca3_350x350.jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/Shopping-Wallpapers-7.jpg" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href=""> Other online shops allow customers from any country to send gifts anywhere.  </a>
+                                        </div>
+                                    </div>
+                                    <div class="nine">
+                                        <div class="nine-mini">
+                                            <div class="img_left">
+                                                <img src="imsges/unnamed.png" alt="">
+                                            </div>
+                                            <div class="img_right">
+                                                <img src="imsges/0749._skin-yard-sparkle-apple-products-wallpaper-laptop-skin-with-screen-protector---keyboard-skin--15-6-inch.jpg" alt="">
+                                            </div>
+                                        </div>
+                                            <div class="trending_text">
+                                                <a href="">The financial part of a transaction (e.g. letting the consumer credit card was declined before they log off) </a>
+                                            </div>
+                                    </div>
+                                    <div class="nine">
+                                        <div class="nine-mini">
+                                            <div class="img_left">
+                                                <img src="imsges/61gEQeX3J+L._SL1000_.jpg" alt="">
+                                            </div>
+                                            <div class="img_right">
+                                                <img src="imsges/1579157900.jpg" alt="">
+                                            </div>
+                                        </div>
+                                            <div class="trending_text">
+                                                <a href="">Once a payment has been accepted, the goods or services can be delivered in the following ways. For physical items:</a>
+                                            </div>
+                                    </div>
+                        </div>
+                        <div class="right_menu_toggle" id="right_menu_toggle">
+    
+                            <div class="trend_now">
+                                <div class="nine">
+                                <div class="nine-mini">
+                                    <div class="img_left">
+                                        <img src="imsges/images (1).jpg" alt="">
+                                    </div>
+                                    <div class="img_right">
+                                        <img src="imsges/images (2).jpg" alt="">
+                                    </div>
+                                </div>
+                                    <div class="trending_text">
+                                        <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                    </div>
+                        
+                                </div>
+                                <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/images (3).jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/images (4).jpg" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                        </div>
+                                </div>
+                                <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/images (5).jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/internet-770x470.webp" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                        </div>
+                                </div>
+                                <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/vsco5d069ef5e0929.jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/6c33.jpg" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                        </div>
+                                </div>
+                                <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/childheight.jpg.824x0_q71_crop-scale.jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/gh-052820-best-anti-aging-products-1590700658.png" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                        </div>
+                                </div>
+                                <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/childheight.jpg.824x0_q71_crop-scale.jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/gh-052820-best-anti-aging-products-1590700658.png" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                        </div>
+                                </div>
+                                <div class="nine"> <div class="nine-mini">
+                                    <div class="img_left">
+                                        <img src="imsges/childheight.jpg.824x0_q71_crop-scale.jpg" alt="">
+                                    </div>
+                                    <div class="img_right">
+                                        <img src="imsges/gh-052820-best-anti-aging-products-1590700658.png" alt="">
+                                    </div>
+                                </div>
+                                    <div class="trending_text">
+                                        <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                    </div>
+                                </div>
+                                <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/childheight.jpg.824x0_q71_crop-scale.jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/gh-052820-best-anti-aging-products-1590700658.png" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                        </div>
+                                </div>
+                                <div class="nine">
+                                    <div class="nine-mini">
+                                        <div class="img_left">
+                                            <img src="imsges/childheight.jpg.824x0_q71_crop-scale.jpg" alt="">
+                                        </div>
+                                        <div class="img_right">
+                                            <img src="imsges/gh-052820-best-anti-aging-products-1590700658.png" alt="">
+                                        </div>
+                                    </div>
+                                        <div class="trending_text">
+                                            <a href="">An Airline Employee On TikTok Is Calling Out All The Celebs Who Were Rude (And Nice) To Her And It's Wild </a>
+                                        </div>
+                                </div>
+                        </div>
+                        </div>
+                    </div> 
+            </div>
+
+    </div>
+   
+
+  
+    <script>
+        function toggleMenu() {
+          var x = document.getElementById("mobile_menu");
+          if (x.className === "mobile_menu") {
+            x.className +=" responsive";
+          } else {
+            x.className = "mobile_menu";
+          }
+        }
+        </script>
+    
+         <script>
+            function key() {
+              var x = document.getElementById("box");
+              if (x.className === "box") {
+                x.className +=" add";
+              } else {
+                x.className = "box";
+              }
+            }
+            </script>
+    
+             <script>
+                function trangle() {
+                  var x = document.getElementById("signin_form_container");
+                  if (x.className === "signin_form_container") {
+                    x.className +=" signform_add ";
+                  } else {
+                    x.className = "signin_form_container";
+                  }
+                }
+                </script>
+    
+                <script>
+                    function bar() {
+                    var x = document.getElementById("right_menu_toggle");
+                    if (x.className === "right_menu_toggle") {
+                        x.className +=" right_toggle_add ";
+                    } else {
+                        x.className = "right_menu_toggle";
+                    }
+                    }
+                    </script>  
+
+    
+</body>
+</html>
